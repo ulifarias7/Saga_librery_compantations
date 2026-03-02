@@ -1,0 +1,47 @@
+# =========================
+# .NET / Visual Studio
+# =========================
+
+# Build folders
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+*.snupkg
+
+# Package build artifacts
+artifacts/
+
+# Test results
+TestResults/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated files
+*.cache
+*.pdb
+*.mdb
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
