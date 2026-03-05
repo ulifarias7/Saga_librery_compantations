@@ -9,7 +9,9 @@
     <Description>compensador de memoria para el uso de un patron saga </Description>
     <ImplicitUsings>enable</ImplicitUsings>
 	<RepositoryUrl>https://github.com/ulifarias7/Saga_librery_compantations</RepositoryUrl>
-    <Nullable>enable</Nullable>
+    <RepositoryType>git</RepositoryType>
+	  <Nullable>enable</Nullable>
+	  <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
