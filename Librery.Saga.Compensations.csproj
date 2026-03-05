@@ -1,17 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
+  <TargetFramework>net10.0</TargetFramework>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	<PackageId>Saga</PackageId>
+	<PackageId>Saga.compensator</PackageId>
 	<Version>1.0.3</Version>
 	<Authors>Ulises-Farias</Authors>
-    <Description>compensador de memoria para el uso de un patron saga </Description>
-    <ImplicitUsings>enable</ImplicitUsings>
+  <Description>compensador de memoria para el uso de un patron saga </Description>
+  <ImplicitUsings>enable</ImplicitUsings>
 	<RepositoryUrl>https://github.com/ulifarias7/Saga_librery_compantations</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
-	  <Nullable>enable</Nullable>
-	  <ImplicitUsings>enable</ImplicitUsings>
+  <RepositoryType>git</RepositoryType>
+  <PackageReadmeFile>README.md</PackageReadmeFile>
+  <Nullable>enable</Nullable>
+  <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
   <ItemGroup>
