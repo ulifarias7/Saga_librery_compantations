@@ -1,0 +1,7 @@
+<Project>
+  <Target Name="CheckSagaTargetFramework" BeforeTargets="Build">
+    <Error
+      Condition="'$(TargetFramework)' != 'net10.0'"
+      Text="Librery.Saga.Compensations solo es compatible con .NET 10 (net10.0). El proyecto que la consume usa '$(TargetFramework)'. Actualizá la librería o usá .NET 10." />
+  </Target>
+</Project>
