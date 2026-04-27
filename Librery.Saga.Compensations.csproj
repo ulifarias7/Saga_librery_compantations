@@ -3,14 +3,15 @@
   <PropertyGroup>
   <TargetFramework>net10.0</TargetFramework>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	<PackageId>UF.Saga.Compensator</PackageId>
-	<Version>1.0.4</Version>
+	<PackageId>ghts.Saga.Compensator</PackageId>
+	<Version>1.0.6</Version>
 	<Authors>Ulises-Farias</Authors>
   <Description>compensador de memoria para el uso de un patron saga </Description>
   <ImplicitUsings>enable</ImplicitUsings>
 	<RepositoryUrl>https://github.com/ulifarias7/Saga_librery_compantations</RepositoryUrl>
   <RepositoryType>git</RepositoryType>
   <PackageReadmeFile>README.md</PackageReadmeFile>
+  <PackageLicenseExpression>MIT</PackageLicenseExpression>
   <Nullable>enable</Nullable>
   <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
@@ -21,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="buildTransitive\UF.Saga.Compensator.targets"
+    <None Include="buildTransitive\ghts.Saga.Compensator.targets"
           Pack="true"
           PackagePath="buildTransitive\" />
   </ItemGroup>
